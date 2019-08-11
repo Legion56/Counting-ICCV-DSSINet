@@ -2,6 +2,7 @@
 [Lingbo Liu, Zhilin Qiu, Guanbin Li , Shufan Liu, Wanli Ouyang, Liang Lin. Crowd Counting with Deep Structured Scale Integration Network, ICCV, 2019]()
 ![image](https://github.com/Legion56/Legion56.github.io/blob/master/images/overview.png)
 <p> &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 Overview of our approach </p>
+
 ## Introduction
 This is the repo for Crowd Counting with Deep Structured Scale Integration Network in ICCV 2019, which delivered a state-of-the-art framework for crowd counting task and two effective module to cope with huge scale variant in the crowd.
 
@@ -41,7 +42,7 @@ Please refer to /nowtest.py for more options; Default scripts for training Shang
 We will release the model reported on our paper, links on the performance session.
 #### Tips
 We train and test the UCF-QNRF dataset with its original resolution. 
-   During training, to fit in memory, we pre-crop images to non-overlap or less-overlap image patches(still with high resolution) and iterate through images via randomly choose one patch with prior to dense patches, follow by other data augment on the fly.
+   During training, to fit in memory, we pre-crop images to non-overlap or less-overlap image patches(in high resolution) and iterate through images via randomly choose one patch with prior to dense patches, follow by other data augment on the fly.
    During testing, images are croped to strictly non-overlap patches and add up the predicted count as the final estimation.
 
 
@@ -60,7 +61,8 @@ We train and test the UCF-QNRF dataset with its original resolution.
 
 ## Citation 
 Please cite our paper when you use this code.
-     @inproceedings{
+
+@inproceedings{
      booktitle={ICCV},
      year={2019}
      }
