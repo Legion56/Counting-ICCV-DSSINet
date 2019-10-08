@@ -1,5 +1,5 @@
 # Crowd-Counting-With-Deep-Structured-Scale-Integration-Network
-[Lingbo Liu, Zhilin Qiu, Guanbin Li , Shufan Liu, Wanli Ouyang, Liang Lin. Crowd Counting with Deep Structured Scale Integration Network, ICCV, 2019]()
+[Lingbo Liu, Zhilin Qiu, Guanbin Li , Shufan Liu, Wanli Ouyang, Liang Lin. Crowd Counting with Deep Structured Scale Integration Network, ICCV, 2019](https://arxiv.org/abs/1908.08692)
 ![image](https://github.com/Legion56/Legion56.github.io/blob/master/images/overview.png)
 <p> &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 &#12288 Overview of our approach </p>
 
@@ -50,19 +50,23 @@ We train and test the UCF-QNRF dataset with its original resolution.
 
 | Dataset | MAE | MSE |
 | ---- | ---- | ---- |
-| [ShanghaiTech Part A]()| 60.63 | 96.04 |
-| [ShanghaiTech Part A(pruned-vgg)]()| 61.16 | 102.91 |
-| [ShanghaiTech Part B]()| 6.85 | 10.34 |
-| [UCF-QNRF]() | 99.1 | 159.2|
+| [ShanghaiTech Part A](https://www.dropbox.com/sh/wx8ah2c6pavod5p/AACDoJvNHrKJ_YaT_ObrCV-3a?dl=0)| 60.63 | 96.04 |
+| [ShanghaiTech Part A(pruned-vgg)](https://www.dropbox.com/sh/wx8ah2c6pavod5p/AACDoJvNHrKJ_YaT_ObrCV-3a?dl=0)| 61.16 | 102.91 |
+| [ShanghaiTech Part B](https://www.dropbox.com/sh/wx8ah2c6pavod5p/AACDoJvNHrKJ_YaT_ObrCV-3a?dl=0)| 6.85 | 10.34 |
+| [UCF-QNRF](https://www.dropbox.com/sh/wx8ah2c6pavod5p/AACDoJvNHrKJ_YaT_ObrCV-3a?dl=0) | 99.1 | 159.2|
 | UCF-CC-50 | 216.9 | 302.4 |
 | WorldExpo'10 | 6.67(average) | |
 | TRANCOS | 2.72| | 
 
 
 ## Citation 
-Please cite our paper when you use this code.
+If you use this code for your research, please cite our papers.
 
-@inproceedings{
-     booktitle={ICCV},
-     year={2019}
-     }
+```
+@inproceedings{liu2019crowd,
+  title={Crowd Counting with Deep Structured Scale Integration Network},
+  author={Liu, Lingbo and Qiu, Zhilin and Li, Guanbin and Liu, Shufan and Ouyang, Wanli and Lin, Liang},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision (ICCV)},
+  year={2019}
+}
+```
